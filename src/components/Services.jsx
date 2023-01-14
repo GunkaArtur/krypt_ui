@@ -50,7 +50,7 @@ const Services = () => {
           }
         />
         <ServiceCard
-          color={"bg-[#89 45F8]"}
+          color={"bg-[#8945F8]"}
           title={"Best exchange rates."}
           icons={<BiSearchAlt fontSize={21} className={"text-white"} />}
           subtitle={

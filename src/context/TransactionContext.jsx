@@ -147,6 +147,8 @@ export const TransactionProvider = ({ children }) => {
       const transactionCount = await transactionContract.getTransactionCount();
 
       setTransactionCount(transactionCount.toNumber());
+
+      getAllTransactions();
     } catch (err) {
       console.error(err.message);
     }

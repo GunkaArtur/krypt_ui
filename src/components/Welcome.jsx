@@ -128,23 +128,23 @@ const Welcome = () => {
             }
           >
             <Input
-              placeholder={"Adress To"}
+              placeholder={"Address To"}
               name={"addressTo"}
-              type={"numbe"}
+              type={"text"}
               handleChange={handleChange}
-            />{" "}
+            />
             <Input
               placeholder={"Amount (ETH)"}
               name={"amount"}
               type={"number"}
               handleChange={handleChange}
-            />{" "}
+            />
             <Input
               placeholder={"Keyword (GIF)"}
               name={"keyword"}
               type={"text"}
               handleChange={handleChange}
-            />{" "}
+            />
             <Input
               placeholder={"Enter Message"}
               name={"message"}
