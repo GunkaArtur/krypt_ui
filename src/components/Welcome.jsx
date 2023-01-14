@@ -124,7 +124,7 @@ const Welcome = () => {
 
           <div
             className={
-              "p-5 sm:w-96 w-full flex flex-col justify-start items-start blue-glassmorphism"
+              "p-5 sm:w-96 w-full flex flex-col justify-start items-center blue-glassmorphism"
             }
           >
             <Input
@@ -152,7 +152,7 @@ const Welcome = () => {
               handleChange={handleChange}
             />
             <div className={"h-[1px] w-full bg-gray-400 my-2"} />
-            {loading ? (
+            {true ? (
               <Loader />
             ) : (
               <button
